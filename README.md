@@ -80,6 +80,18 @@ El proyecto utiliza un `Makefile` para la compilación. Asegúrate de tener `mak
     La terminal del servidor debería imprimir el mensaje enviado por el cliente.
 
 ## Estructura del Proyecto
+minitalk/
+├── client.c             # Código fuente del cliente
+├── server.c             # Código fuente del servidor
+├── minitalk.h           # Archivo de cabecera principal del proyecto
+├── ft_atoi.c            # Implementación de ft_atoi, compilado con Minitalk
+├── Makefile             # Makefile principal para compilar Minitalk y la librería ft_printf
+├── ft_printf/           # Directorio que contiene la librería ft_printf
+│   ├── ft_printf.c      # Código fuente principal de ft_printf
+│   ├── ft_printf.h      # Archivo de cabecera de ft_printf
+│   ├── ... (otros archivos .c y/o .h de ft_printf)
+│   └── Makefile         # Makefile para compilar la librería ft_printf
+└── README.md            # Este archivo
 
 ## Autor
 * **https://github.com/Jhonjairo03s**
