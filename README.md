@@ -80,6 +80,7 @@ El proyecto utiliza un `Makefile` para la compilación. Asegúrate de tener `mak
     La terminal del servidor debería imprimir el mensaje enviado por el cliente.
 
 ## Estructura del Proyecto
+```bash
 minitalk/
 ├── client.c             # Código fuente del cliente
 ├── server.c             # Código fuente del servidor
@@ -92,6 +93,7 @@ minitalk/
 │   ├── ... (otros archivos .c y/o .h de ft_printf)
 │   └── Makefile         # Makefile para compilar la librería ft_printf
 └── README.md            # Este archivo
+```
 
 ## Autor
 * **https://github.com/Jhonjairo03s**
